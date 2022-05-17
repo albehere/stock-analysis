@@ -1,7 +1,7 @@
-#Stock Analysis Module 2 UofT Data bootcamp
+# Stock Analysis Module 2 UofT Data bootcamp
 
-##Overview of Project
-###Purpose
+## Overview of Project
+### Purpose
 
 The client, Steve, is helping his parents do some research on the stock market. He is looking for an Excel workbook that can do analysis on multiple stocks for him. Using VBA script a custom code can be applied to the data to perform the analysis. Two scripts are used in this project, one based on analysis of a single ticker and another based on multiple tickers refactored to fit the source data.
 
@@ -28,7 +28,7 @@ Refactored for loop
 ![Previous code example](resources/Previous_code_example.png)
 Previous for loop
 
-##Summary
+## Summary
 
 For this project, two approaches were used one starting from scratch and the other refactoring code that was given. Refactoring code is a good example of putting the concept of modularity to good use. It can save the coder time because they can copy and paste working code from one project to another. A disadvantage to refactoring code is that code written for one project may not be optimal for another project.
 
