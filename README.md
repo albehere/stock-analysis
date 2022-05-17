@@ -11,22 +11,28 @@ Using both scripts, the same results are shown below for the years 2017 and 2018
 
 ![Results 2017](resources/Results_2017.png)
 ![Results 2018](resources/Results_2018.png)
+
 The difference between the two different scripts is the time it takes to run as shown below.
 
 ![Execution time refactored](resources/VBA_Challenge_2017.png)
 ![Execution time refactored](resources/VBA_Challenge_2018.png)
+
 Execution time for refactored script
 
-![Execution time previous script](resources/previous_code_2017.png)
-![Execution time previous script](resources/previous_code_2018.png)
-Execution time for previous script
+![Execution time previous script](resources/Previous_code_2017.png)
+![Execution time previous script](resources/Previous_code_2018.png)
 
-The execution time for the refactored script is shorter because it is written to loop through the data once. The previous code was modified from script written for a single ticker and so it loops through the data for every instance of a unique ticker. The start of the for loops in the script are shown below to show this difference in approach.
+Execution time for original script
+
+The execution time for the refactored script is shorter because it is written to loop through the data once. The original code was modified from script written for a single ticker and so it loops through the data for every instance of a unique ticker. The start of the for loops in the script are shown below to show this difference in approach.
 
 ![VBA Challenge Code example](resources/VBA_Challenge_code.png)
+
 Refactored for loop
+
 ![Previous code example](resources/Previous_code_example.png)
-Previous for loop
+
+Original for loop
 
 ## Summary
 
